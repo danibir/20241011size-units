@@ -1,0 +1,161 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5%;
+}
+.flexBody
+{
+    display: flex;
+    flex-direction: row;
+    gap: 7.5%;
+}
+.flexartic
+{
+    display: flex;
+    flex-direction: row;
+}
+#flex1
+{
+    flex-grow: 1;
+    height: 100px;
+    border: 2px solid lightgrey;
+}
+#flex2
+{
+    flex-grow: 2;
+    height: 200px;
+    border: 2px solid lightgrey;
+}
+#flex3
+{
+    flex-grow: 4;
+    height: fit-content;
+    border: 2px solid lightgrey;
+}
+#flex4
+{
+    flex-grow: 1;
+    height: 200px;
+}
+#flex5
+{
+    flex-grow: 1;
+    height: 200px;
+    border: 2px solid lightgrey;      
+}
+#flex00
+{
+    flex-grow: 1;
+    border: 1px solid lightgrey;
+}
+#flex01
+{
+    flex-grow: 1;
+    border: 1px solid lightgrey;
+}
+#flex02
+{
+    flex-grow: 1;
+    border: 1px solid lightgrey;
+}
+#title
+{
+    font-weight: bold;
+}
+#defaultem
+{
+    background-color: lightgrey;
+    height: 11.47em;
+}
+#defaultex
+{
+    background-color: white;
+    height: 11.47ex;
+}
+#defaultch
+{
+    background-color: lightgrey; 
+    height: 11.47ch;
+}
+#defaultrem
+{
+    background-color: white;
+    height: 11.47rem;
+}
+#defaultvw
+{
+    background-color: lightgrey; 
+    height: 11.47vw;
+}
+#defaultvh
+{
+    background-color: white;
+    height: 11.47vh;
+}
+#defaultvmin
+{
+    background-color: lightgrey; 
+    height: 11.47vmin;
+}
+#defaultvmax
+{
+    background-color: white;
+    height: 11.47vmax;
+}
+#defaultpercent
+{
+    background-color: lightgrey; 
+    height: 30px;
+}
+#em
+{
+    background-color: lightgrey;
+    font-size: 10em;
+}
+#ex
+{
+    font-size: 10ex;
+}
+#ch
+{
+    background-color: lightgrey;
+    font-size: 10ch;
+}
+#rem
+{
+    font-size: 10rem;
+}
+#vw
+{
+    background-color: lightgrey;
+    font-size: 10vw;
+}
+#vh
+{
+    font-size: 10vh;
+}
+#vmin
+{
+    background-color: lightgrey;
+    font-size: 10vmin;
+}
+#vmax
+{
+    font-size: 10vmax;
+}
+#percent
+{
+    background-color: lightgrey;
+    font-size: 10%;
+    height: 30px;
+}
+@media only screen and(maxwidth: 600px)
+{
+
+    .flexBody
+    {
+        display: none;
+    }
+
+}
